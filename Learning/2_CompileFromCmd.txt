@@ -1,0 +1,8 @@
+Check to see if you have gcc paste
+"gcc --version" in terminal
+
+to compile type
+"gcc {name of file}.c"
+
+to run the newly compiled file type
+"a.exe"
