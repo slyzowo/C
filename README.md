@@ -43,25 +43,6 @@ It comes with
 
 Download [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) to run your code faster and easier
 
-## Compiling
-
-### compiling from Command Line
-Copy and paste this command to compile
-```
-gcc hello-world.c
-```
-> [!NOTE]
-> Spaces do not work with file names when compiling from command line.\
-> File names will vary.
-
-Then to run the file type the name of the .exe you made.
-```
-a.exe
-```
-
-### compiling from Code Runner
-press the triangle in the corner of your screen, and it compiles and runs.
-
 
 # list of what the tutorial covers
 
@@ -71,22 +52,26 @@ press the triangle in the corner of your screen, and it compiles and runs.
 1. Hello World
 1. Compile and run a C program with commmand line
 
-To check to see if you have gcc paste this command in the terminal
+Copy and paste this command to compile
 
 ```
-gcc --version
+gcc hello-world.c
 ```
 
-to compile the file
+> [!NOTE]
+> Spaces do not work with file names when compiling from command line.\
+> File names will vary.
 
-```
-gcc {name of file}.c
-```
-to run your newly compiled file
+Then to run the file type the name of the .exe you made.
 
 ```
 a.exe
 ```
+
+### compiling from Code Runner
+
+press the triangle in the corner of your screen, and it compiles and runs.
+
 1. Comments
 1. Escape sequences
 1. variables
