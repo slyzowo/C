@@ -45,10 +45,14 @@ Download [Code Runner](https://marketplace.visualstudio.com/items?itemName=formu
 
 ## Compiling
 ### compiling from command line
-Copy and paste this command to compile
-
+To Test to see if you have the compiler, type in this command
 ```
-gcc hello-world.c
+gcc --version
+```
+
+Copy and paste this command to compile
+```
+gcc helloWorld.c
 ```
 
 > [!NOTE]
@@ -56,19 +60,17 @@ gcc hello-world.c
 > File names will vary.
 
 Then to run the file type the name of the .exe you made.
-
 ```
 a.exe
 ```
 
 ### compiling from Code Runner
-
 press the triangle in the corner of your screen, and it compiles and runs.
 
-# list of what the tutorial covers
+# Tutorial Topics
 
 > [!WARNING]
-> This tutorial does NOT cover algorithms or how to write clean code
+> This tutorial does NOT cover algorithms or how to write clean code.
 
 1. Hello World
 1. Compile and run a C program with commmand line
@@ -125,7 +127,7 @@ press the triangle in the corner of your screen, and it compiles and runs.
 ## Format Specifiers Chart
 
 > [!WARNING]
-> If you go above the range it overflows and loops back to the minimum value.
+> If you go above the range, it will overflow and loop back to the minimum value.
 
 | Type               | Size    | Range                            | %char   | char meaning       |
 |:-------------------|:--------|:---------------------------------|:--------|:-------------------|
