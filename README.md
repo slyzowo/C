@@ -70,11 +70,46 @@ press the triangle in the corner of your screen, and it compiles and runs.
 
 1. Hello World
 1. Compile and run a C program with commmand line
+
+To check to see if you have gcc paste this command in the terminal
+
+```
+gcc --version
+```
+
+to compile the file
+
+```
+gcc {name of file}.c
+```
+to run your newly compiled file
+
+```
+a.exe
+```
 1. Comments
 1. Escape sequences
 1. variables
 1. Data types
 1. Format specifiers
+## Format Specifiers Chart
+
+> [!WARNING]
+> If you go above the range it overflows and loops back to the minimum value.
+
+| Type               | Size    | Range                            | %char   | char meaning       |
+|:-------------------|:--------|:---------------------------------|:--------|:-------------------|
+| Char               | 1 byte  | -128 to +127                     | %c / %d | character or digit |
+| Unsigned Char      | 1 byte  | 0 to 255                         | %c / %d | character or digit |
+| Float              | 4 bytes |                                  | %f      | float              |
+| Double             | 8 bytes |                                  | %lf     | long float         |
+| Bool               | 1 byte  | 0 to 1                           | %d      | digit              |
+| short              | 2 bytes | -32,768 to +32,767               | %d      | digit              |
+| unsigned short     | 2 bytes | 0 to +65,535                     | %u      | unsigned           |
+| int                | 4 bytes | -2,147,483,648 to +2,147,483,647 | %d      | digit              |
+| unsigned int       | 4 bytes | 0 to +4,294,967,295              | %u      | unsigned           |
+| long long          | 8 bytes |-9 quintillion to +9 quintillion  | %lld    | long long digit    |
+| unsigned long long | 8 bytes |0 to +18 quintillion              | %llu    | long long unsigned |
 1. Constants
 1. Arithmetic operators
 1. Augmented assignment operators
@@ -119,23 +154,3 @@ press the triangle in the corner of your screen, and it compiles and runs.
 1. Writing file
 1. Reading files
 1. Tic Tac Toe game
-
-
-## Format Specifiers Chart
-
-> [!WARNING]
-> If you go above the range it overflows and loops back to the minimum value.
-
-| Type               | Size    | Range                            | %char   | char meaning       |
-|:-------------------|:--------|:---------------------------------|:--------|:-------------------|
-| Char               | 1 byte  | -128 to +127                     | %c / %d | character or digit |
-| Unsigned Char      | 1 byte  | 0 to 255                         | %c / %d | character or digit |
-| Float              | 4 bytes |                                  | %f      | float              |
-| Double             | 8 bytes |                                  | %lf     | long float         |
-| Bool               | 1 byte  | 0 to 1                           | %d      | digit              |
-| short              | 2 bytes | -32,768 to +32,767               | %d      | digit              |
-| unsigned short     | 2 bytes | 0 to +65,535                     | %u      | unsigned           |
-| int                | 4 bytes | -2,147,483,648 to +2,147,483,647 | %d      | digit              |
-| unsigned int       | 4 bytes | 0 to +4,294,967,295              | %u      | unsigned           |
-| long long          | 8 bytes |-9 quintillion to +9 quintillion  | %lld    | long long digit    |
-| unsigned long long | 8 bytes |0 to +18 quintillion              | %llu    | long long unsigned |
