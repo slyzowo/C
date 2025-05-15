@@ -57,7 +57,6 @@ press the triangle in the corner of your screen, and it compiles and runs.
 2. Comments
 3. Escape sequences
 4. Variables
-5. Swap 2 variables
 6. Constants
 7. Format specifiers
 8. Arithmetic operators + Augmented assignment
@@ -68,6 +67,7 @@ press the triangle in the corner of your screen, and it compiles and runs.
 2. String functions
 3. Random numbers
 4. Beep
+5. Swap 2 variables
 
 ### Statements
 1. If statements
