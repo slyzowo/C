@@ -1,5 +1,8 @@
 # C for windows
 
+> [!WARNING]
+> I will redo this tutorial at some point, mostly to add more and to refactor some. I *may* make a youtube series on this. :3
+
 # installation
 ## Downloads
 Download the [C/C++ compiler](https://www.msys2.org/) and [Visual Studio Code](https://code.visualstudio.com/download)
@@ -47,6 +50,7 @@ Download [Code Runner](https://marketplace.visualstudio.com/items?itemName=formu
 press the triangle in the corner of your screen, and it compiles and runs.
 
 # Tutorial Topics
+
 
 > [!WARNING]
 > This tutorial does NOT cover algorithms or how to write clean code.
