@@ -4,7 +4,8 @@ int main(){
 
   int age = 18;
 
-  int *pAge = &age; // integer pointerAge is equal to the address of age
+  int *pAge = NULL; // good practice to initalize using NULL, then reassign it later
+  *pAge = &age;     // integer pointerAge is equal to the address of age
 
   printf("Address of age = %p\n", &age);
   printf("Value of PAge = %p\n", pAge); // same thing
