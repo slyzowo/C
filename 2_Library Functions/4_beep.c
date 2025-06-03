@@ -4,7 +4,7 @@
 int main(){
 
   int hertz = 780;
-  int duration = 300; // in ms not s
+  int duration = 1000; // in ms not s
 
   Beep(hertz, duration);
 
