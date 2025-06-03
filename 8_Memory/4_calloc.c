@@ -18,7 +18,7 @@ int main(){
     printf("Enter scores #%d :\n", i + 1);
     scanf(" %c", &scores[i]);
   }
-  
+
   for(int i = 0; i < number; i++){
     printf(" %d", scores[i]);
   }
