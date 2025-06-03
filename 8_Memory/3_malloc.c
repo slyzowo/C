@@ -4,7 +4,6 @@
 int main(){
 
   int number = 0;
-
   printf("Enter the number of grades : \n");
   scanf("%d", &number);
 
