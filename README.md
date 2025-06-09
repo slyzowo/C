@@ -117,8 +117,14 @@ press the triangle in the corner of your screen, and it compiles and runs.
 
 ### Input Output
 1. Writing file
-2. Reading files
-3. Deleting files
+2. Appending files
+3. Reading files
+4. Deleting files
+
+### Other
+1. Unions
+2. Macros
+3. "libraries"
 
 ### compiling from command line
 To Test to see if you have the compiler, type in this command
