@@ -124,7 +124,7 @@ press the triangle in the corner of your screen, and it compiles and runs.
 
 ### Other
 1. Macros
-2. "libraries"
+2. static libraries
 
 ### compiling from command line
 To Test to see if you have the compiler, type in this command
