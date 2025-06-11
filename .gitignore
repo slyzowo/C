@@ -1,3 +1,6 @@
 /.vscode
 desktop.ini
 *.exe
+/.vs
+1_Basic/Test.c
+*.json
