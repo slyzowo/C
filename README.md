@@ -89,9 +89,10 @@ press the triangle in the corner of your screen, and it compiles and runs.
 2. Function prototypes
 3. Return statement
 4. Arguments
-5. Structs
-6. Typedef
-7. Enums
+5. Typedef
+6. Enums
+7. Structs
+8. Unions
 
 ### Loops
 1. For loops
@@ -122,9 +123,8 @@ press the triangle in the corner of your screen, and it compiles and runs.
 4. Deleting files
 
 ### Other
-1. Unions
-2. Macros
-3. "libraries"
+1. Macros
+2. "libraries"
 
 ### compiling from command line
 To Test to see if you have the compiler, type in this command
