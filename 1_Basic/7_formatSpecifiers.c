@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdbool.h>         // for booleans to work, you have to have this library
+#include <stdbool.h> // for booleans to work, you have to have this library
 
 int main(){
 

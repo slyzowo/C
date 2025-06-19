@@ -4,7 +4,7 @@
 int main(){
 
   int age = 0;
-  char pizza[255];
+  char pizza[255]; // you have to allocate space for your strings
 
   printf("what is your favorite pizza?");
 

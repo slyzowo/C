@@ -3,10 +3,10 @@
 
 int main(){
 
-  int a; // assignment
+  int a;  // assignment
   a = 15; // declaration
 
-  int b = 25; // both
+  int b = 25; // both assignment and declaration
 
 
   int age = 18;             // digit / integer

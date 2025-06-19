@@ -4,8 +4,8 @@ int main(){
 
 /* 
 
-  Escape Sequences, A character combination making up of a backslash follwed by a letter or several digits.
-                    These Escape Sequences can do many things based on what letter or numbers are followed.
+  Escape Sequences,
+  A character combination making up of a backslash follwed by a letter or several digits. These Escape Sequences can do many things based on what letter or numbers are followed.
 
   \n = New Line
   \t = Tab
