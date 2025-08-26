@@ -46,7 +46,7 @@ int main(){
   int result = strncmp(string3, string2, 1);
   printf("string n compare : %s \n", string3);
 
-  int result = strcmpi(string3, string2, 1);
+  int result = strcmpi(string3, string2);
   printf("string compare (ignore case) : %s \n", string3);
 
   int result = strncmpi(string3, string2, 1);
