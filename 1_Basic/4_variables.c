@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h>
 
 int main(){
 
@@ -13,8 +12,7 @@ int main(){
   float pi = 3.141592;      // decimal numbers
   char grade = 'C';         // character
   char name[] = "slyzOwO";  // string is a list of characters
-  bool student = true;      // a boolean is a True or False statement
-  
+  bool student = 1;      // a boolean is a True or False statement
 
   printf("you are %d years old \n", age);         // d = digit
   printf("pi is %f \n", pi);                      // s = string
