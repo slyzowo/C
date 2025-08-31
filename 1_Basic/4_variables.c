@@ -7,7 +7,6 @@ int main(){
 
   int b = 25; // both assignment and declaration
 
-
   int age = 18;             // digit / integer
   float pi = 3.141592;      // decimal numbers
   char grade = 'C';         // character
