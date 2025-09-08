@@ -168,19 +168,19 @@ a.exe
 
 ## String Functions Chart
 
-| Function           | What it does                                          |
-|:-------------------|:------------------------------------------------------|
-| strlwr();          | Lowercases the string                                 |
-| strupr();          | uppercases the string                                 |
-| strcat();          | appeneds two strings together                         |
-| strncat();         | appeneds n chars to string1 from string2 together     |
-| strcpy();          | copys string2 to string1                              |
-| strncpy();         | copys n chars to string1 from string2                 |
-| strset();          | sets a char to a string                               |
-| strnset();         | sets a char to a string for n chars                   |
-| strrev();          | reverses a string                                     |
-| strlen();          | says the string length                                |
-| strcmp();          | compares two strings                                  |
-| strncmp();         | compares two strings for n chars                      |
-| strcmp();          | compares two strings (ignore case)                    |
-| strncmpi();        | compares two strings for n chars (ignore case)        |
+| Function           | What it does                                      |
+|:-------------------|:--------------------------------------------------|
+| strlwr();          | Lowercases the string                             |
+| strupr();          | uppercases the string                             |
+| strcat();          | appeneds two strings together                     |
+| strncat();         | appeneds n chars to string1 from string2 together |
+| strcpy();          | copys string2 to string1                          |
+| strncpy();         | copys n chars to string1 from string2             |
+| strset();          | sets a char to a string                           |
+| strnset();         | sets a char to a string for n chars               |
+| strrev();          | reverses a string                                 |
+| strlen();          | says the string length                            |
+| strcmp();          | compares two strings                              |
+| strncmp();         | compares two strings for n chars                  |
+| strcmp();          | compares two strings (ignore case)                |
+| strncmpi();        | compares two strings for n chars (ignore case)    |
