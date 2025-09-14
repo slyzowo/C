@@ -1,4 +1,7 @@
 #include <stdio.h>
+/*
+  In C versions C99 - C23 you would need to include <stdbool> for booleans
+*/
 
 int main(){
 
@@ -12,6 +15,7 @@ int main(){
   char grade = 'C';         // character
   char name[] = "slyzOwO";  // string is a list of characters
   bool student = 1;      // a boolean is a True or False statement
+  
 
   printf("you are %d years old \n", age);         // d = digit
   printf("pi is %f \n", pi);                      // s = string
