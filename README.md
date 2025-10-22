@@ -1,4 +1,4 @@
-# C for windows
+# C23 for windows
 
 > [!WARNING]
 > I will redo this tutorial at some point, mostly to add more and to refactor some. I *may* make a youtube series on this. :3
@@ -56,75 +56,88 @@ press the triangle in the corner of your screen, and it compiles and runs.
 > This tutorial does NOT cover algorithms or how to write clean code.
 
 ### Basic
-0. Compile and run a C program with commmand line
-1. Hello World
-2. Comments
-3. Escape sequences
-4. Variables
-6. Constants
-7. Format specifiers
-8. Arithmetic operators + Augmented assignment
-9. User input
+01. Hello World
+02. Compile and run a C program with commmand line
+03. Comments
+04. Escape sequences
+05. Variables & Constants
+06. Type conversion
+07. Format specifiers
+08. Arithmetic operators + Augmented assignment
+09. User input
 
-### Library Functions
-1. Math functions
-2. String functions
-3. Random numbers
-4. Beep
-5. Swap 2 variables
+### Libraries-1
+10. Math functions
+11. Complex Math functions
+12. String functions
+13. Swap 2 variables
+14. Beep
+15. Random numbers
+16. Time
 
 ### Statements
-1. If statements
-2. Ternary operator
-3. Switch statements
+17. If statements
+18. Ternary operator
+19. Switch statements
 
-### Gates
-1. And logical operator
-2. Or logical operator
-3. Not logical operator
-4. Bitwise operators
+### Logic Gates
+20. And logical operator
+21. Or logical operator
+22. Not logical operator
+23. Bitwise operators
 
 ### Functions
-1. Functions
-2. Function prototypes
-3. Return statement
-4. Arguments
-5. Typedef
-6. Enums
-7. Structs
-8. Unions
+24. Functions
+25. Function prototypes
+26. Return statement
+27. Arguments
+28. Variable Scope
+29. Variadic Functions
+30. Typedef
+31. Enums
+32. Structs
+33. Unions
+
+### Libraries-2
+31. Complex Math functions
+32. Asserts
+33. Strings (Unicode | Ansi)
+34. Time 
+35. Threads
+36. Stdlib
 
 ### Loops
-1. For loops
-2. Break vs continue
-3. While loops
-4. Do while loop
-5. Nested loops
+37. For loops
+38. Break vs continue
+39. While loops
+40. Do while loop
+41. Nested loops
 
 ### Arrays
-1. Arrays
-2. Print an array with loop
-3. 2D arrays
-4. Array of string
-5. Sort an array (bubble sort)
-6. Array of structs
+42. Arrays
+43. Print an array with loop
+44. 2D arrays
+45. Array of string
+46. Sort an array (bubble sort)
+47. Array of structs
 
 ### Memory
-1. Memory addresses
-2. Pointers
-3. Malloc
-4. Calloc
-5. Realloc
+48. Memory addresses
+49. Pointers
+50. Malloc
+51. Calloc
+52. Realloc
 
-### Input Output
-1. Writing file
-2. Appending files
-3. Reading files
-4. Deleting files
+### Files
+53. Writing file
+54. Appending files
+55. Reading files
+56. Deleting files
+57. Static libraries
+58. Dynamic libraries
 
-### Other
-1. Macros
-2. static libraries
+### Preprocessor
+59. Macros
 
 ### compiling from command line
 To Test to see if you have the compiler, type in this command
