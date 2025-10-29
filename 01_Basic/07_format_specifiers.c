@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include <stdbool.h> // for booleans to work, you have to have this library
 
-int main(){
+int main() {
 
 // Letters
   char a = 'A';
@@ -53,8 +52,6 @@ int main(){
   printf("%12.2lf \n", e); // minimum field width
 
   printf("%-lf \n", e); // left align
-
-
 
 return 0;
 }

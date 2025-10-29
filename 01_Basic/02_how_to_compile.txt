@@ -1,0 +1,5 @@
+To Test to see if you have the compiler, type in this command : gcc --version
+
+Copy and paste this command to compile : gcc helloWorld.c
+
+Then to run the file type the name of the .exe you made. : a.exe

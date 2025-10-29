@@ -51,95 +51,93 @@ press the triangle in the corner of your screen, and it compiles and runs.
 
 # Tutorial Topics
 
-
 > [!WARNING]
 > This tutorial does NOT cover algorithms or how to write clean code.
 
-### Basic
-01. Hello World
-02. Compile and run a C program with commmand line
-03. Comments
-04. Escape sequences
-05. Variables & Constants
-06. Type conversion
-07. Format specifiers
-08. Arithmetic operators + Augmented assignment
-09. User input
+### 1_Basic
+01. 🟩 Hello World
+02. 🟩 Compile and run a C program with commmand line
+03. 🟩 Comments
+04. 🟩 Escape sequences
+05. 🟩 Variables & Constants
+06. 🟩 Type conversion
+07. 🟩 Format specifiers
+08. 🟩 Arithmetic operators + Augmented assignment
+09. 🟩 User input
 
-### Libraries-1
-10. Math functions
-11. Complex Math functions
-12. String functions
-13. Swap 2 variables
-14. Beep
-15. Random numbers
-16. Time
+### 2_Libraries_1
+10. 🟩 Math functions
+11. 🟩 String functions
+12. 🟩 Swap 2 variables
+13. 🟩 Beep
+14. 🟩 Random numbers
 
-### Statements
-17. If statements
-18. Ternary operator
-19. Switch statements
+### 3_Statements
+15. 🟩 If statements
+16. 🟩 Ternary operator
+17. 🟩 Switch statements
 
-### Logic Gates
-20. And logical operator
-21. Or logical operator
-22. Not logical operator
-23. Bitwise operators
+### 4_Logic_Gates
+18. 🟩 And logical operator
+19. 🟩 Or logical operator
+20. 🟩 Not logical operator
+21. 🟩 Bitwise operators
 
-### Functions
-24. Functions
-25. Function prototypes
-26. Return statement
-27. Arguments
-28. Variable Scope
-29. Variadic Functions
-30. Typedef
-31. Enums
-32. Structs
-33. Unions
+### 5_Functions
+22. 🟩 Functions
+23. 🟩 Function prototypes
+24. 🟩 Return statement
+25. 🟩 Arguments
+26. 🟨 Variable Scope
+27. 🟨 Variadic Functions
+28. 🟩 Typedef
+29. 🟩 Enums
+30. 🟩 Structs
+31. 🟩 Unions
 
-### Libraries-2
-31. Complex Math functions
-32. Asserts
-33. Strings (Unicode | Ansi)
-34. Time 
-35. Threads
-36. Stdlib
+### 6_Libraries_2
+32. 🟨 Complex Math functions
+33. 🟨 Asserts
+34. 🟨 Strings (Unicode | Ansi)
+35. 🟨 Time 
+36. 🟨 Threads
+37. 🟨 Stdlib
 
-### Loops
-37. For loops
-38. Break vs continue
-39. While loops
-40. Do while loop
-41. Nested loops
+### 7_Loops
+38. 🟩 For loops
+39. 🟩 Break vs continue
+40. 🟩 While loops
+41. 🟩 Do while loop
+42. 🟩 Nested loops
 
-### Arrays
-42. Arrays
-43. Print an array with loop
-44. 2D arrays
-45. Array of string
-46. Sort an array (bubble sort)
-47. Array of structs
+### 8_Arrays
+43. 🟩 Arrays
+44. 🟨 Multi-Dimensional Arrays
+45. 🟩 Print an array with loop
+46. 🟩 2D arrays
+47. 🟩 Array of string
+48. 🟩 Sort an array (bubble sort)
+49. 🟩 Array of structs
 
-### Memory
-48. Memory addresses
-49. Pointers
-50. Malloc
-51. Calloc
-52. Realloc
+### 9_Memory
+50. 🟩 Memory addresses
+51. 🟩 Pointers
+52. 🟩 Malloc
+53. 🟩 Calloc
+54. 🟩 Realloc
 
-### Files
-53. Writing file
-54. Appending files
-55. Reading files
-56. Deleting files
-57. Static libraries
-58. Dynamic libraries
+### 10_Files
+55. 🟩 Writing file
+56. 🟩 Appending files
+57. 🟩 Reading files
+58. 🟩 Deleting files
+59. 🟨 Static libraries
+50. 🟨 Dynamic libraries
 
-### Preprocessor
-59. Macros
+### 11_Preprocessor
+60. 🟩 Macros
 
-### compiling from command line
+### Compiling from command line
 To Test to see if you have the compiler, type in this command
 ```
 gcc --version
@@ -164,19 +162,19 @@ a.exe
 > [!WARNING]
 > If you go above the range, it will overflow and loop back to the minimum value.
 
-| Type               | Size    | Range                             | %char   | char meaning       |
-|:-------------------|:--------|:----------------------------------|:--------|:-------------------|
-| Char               | 1 byte  | -128 to +127                      | %c / %d | character or digit |
-| Unsigned Char      | 1 byte  | 0 to 255                          | %c / %d | character or digit |
-| Float              | 4 bytes |                                   | %f      | float              |
-| Double             | 8 bytes |                                   | %lf     | long float         |
-| Bool               | 1 byte  | 0 to 1                            | %d      | digit              |
-| short              | 2 bytes | -32,768 to +32,767                | %d      | digit              |
-| unsigned short     | 2 bytes | 0 to +65,535                      | %u      | unsigned           |
-| int                | 4 bytes | -2,147,483,648 to +2,147,483,647  | %d      | digit              |
-| unsigned int       | 4 bytes | 0 to +4,294,967,295               | %u      | unsigned           |
-| long long          | 8 bytes | -9 quintillion to +9 quintillion  | %lld    | long long digit    |
-| unsigned long long | 8 bytes | 0 to +18 quintillion              | %llu    | long long unsigned |
+| Type               | Size    | Range                                                     | %char   | char meaning       |
+|:-------------------|:--------|:----------------------------------------------------------|:--------|:-------------------|
+| Char               | 1 byte  | -128 to +127                                              | %c / %d | character or digit |
+| Unsigned Char      | 1 byte  | 0 to 255                                                  | %c / %d | character or digit |
+| Float              | 4 bytes |                                                           | %f      | float              |
+| Double             | 8 bytes |                                                           | %lf     | long float         |
+| Bool               | 1 byte  | 0 to 1                                                    | %d      | digit              |
+| short              | 2 bytes | -32,768 to +32,767                                        | %d      | digit              |
+| unsigned short     | 2 bytes | 0 to +65,535                                              | %u      | unsigned           |
+| int                | 4 bytes | -2,147,483,648 to +2,147,483,647                          | %d      | digit              |
+| unsigned int       | 4 bytes | 0 to +4,294,967,295                                       | %u      | unsigned           |
+| long long          | 8 bytes | -9,223,372,036,854,775,807 to +9,223,372,036,854,775,807  | %lld    | long long digit    |
+| unsigned long long | 8 bytes | 0 to +18,446,744,073,709,551,615                          | %llu    | long long unsigned |
 
 
 ## String Functions Chart
