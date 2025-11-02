@@ -88,8 +88,8 @@ press the triangle in the corner of your screen, and it compiles and runs.
 23. 🟩 Function prototypes
 24. 🟩 Return statement
 25. 🟩 Arguments
-26. 🟨 Variable Scope
-27. 🟨 Variadic Functions
+26. 🟩 Variable Scope
+27. 🟩 Variadic Functions
 28. 🟩 Typedef
 29. 🟩 Enums
 30. 🟩 Structs
